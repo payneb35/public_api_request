@@ -16,7 +16,7 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: rgba(13, 9, 56, 0.9);
 }
 
 header {
@@ -29,14 +29,14 @@ header {
 }
 
 header h1 {
-    font-size: 1.25em;
-    color: rgba(50, 50, 50, 0.9);
+    font-size: 1.5em;
+    color: white;
     margin-top: 35px;
 }
 
 .search-input {
     padding: 0.4rem 1rem;
-    border: 1px solid rgba(200, 200, 200, 0.9);
+    border: 4px solid rgba(44, 156, 190, 0.897);
     border-radius: 0.25rem 0 0 0.25rem ;
     max-width: 20rem;
     transition: .4s ease-out;
@@ -44,22 +44,22 @@ header h1 {
 }
 
 .search-input:active, .search-input:hover, .search-input:focus {
-    border: 1px solid rgba(50, 50, 50, 0.9);
+    border: 4px solid rgba(50, 50, 50, 0.9);
 }
 
 .search-submit {
     cursor: pointer;
-    height: 33px;
+    height: 39px;
     background: rgba(245, 245, 245, 0.9);
     border-radius: 0 0.25rem 0.25rem 0;
-    border: 1px solid rgba(200, 200, 200, 0.9);
+    border: 4px solid rgba(44, 156, 190, 0.897);
     transition: .4s ease-out;
     outline: none;
 }
 
 .search-submit:active, .search-submit:hover, .search-submit:focus {
     background: rgba(255, 255, 255, 0.9);
-    border: 1px solid rgba(50, 50, 50, 0.9);
+    border: 4px solid rgba(50, 50, 50, 0.9);
 }
 
 
@@ -89,7 +89,7 @@ header h1 {
     padding: 10px;
     background: rgba(245, 245, 245, 0.9);
     border-radius: 0.25em;
-    border: 1px solid rgba(50, 50, 50, 0.3);
+    border: 4px solid rgba(44, 156, 190, 0.897);
     transition: .4s ease-out;
     overflow: hidden;
 }
@@ -117,6 +117,11 @@ header h1 {
 
 .cap {
     text-transform: capitalize;
+}
+
+.notfound {
+    color: white;
+    font-size: 3em;
 }
 
 
